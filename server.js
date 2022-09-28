@@ -38,6 +38,6 @@ app.post("/imageurl", (req, res) => {
   image.handleApiCall(req, res);
 });
 
-app.listen(process.env.PORT || 3001, () =>
-  console.log("Example app listening on port", $process.env.PORT)
-);
+app.listen(process.env.PORT || 3001, () => {
+  console.log(`app running in port ${process.env.PORT}`);
+});
