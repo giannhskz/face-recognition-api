@@ -19,7 +19,7 @@
     "pg": "^8.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20",
-    "@types/bcrypt-nodejs": "^0.0.31"
+    "@types/bcrypt-nodejs": "^0.0.31",
+    "nodemon": "^2.0.20"
   }
 }
